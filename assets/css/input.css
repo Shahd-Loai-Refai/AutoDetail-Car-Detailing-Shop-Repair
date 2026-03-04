@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@theme{
+    /* Colors */
+    --color-background: #000000;
+    --color-foreground: #FFFFFF;
+    --color-muted-forground: #F8F9FA;
+
+    /* Fonts */
+    --font-sans-serif: "Open Sans", sans-serif;
+}
+@layer base{
+    body{
+        @apply bg-background font-sans-serif text-foreground;
+        height: 10000px;
+    }
+    span{
+        color:#FFFFFFBF;
+    }
+    button{
+        cursor: pointer;
+    }
+    @media (min-width: 1024px) {
+    a {
+        font-size: 14px;
+    }
+}
+}
