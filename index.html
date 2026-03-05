@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>AutoDetail - Car-Detailing, Shop & Repair</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/general/logo-white.png">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -80,20 +81,30 @@
                         style="color: rgb(255, 255, 255);"></i></button>
             </div>
     </header>
-    <section class="Hero_section relative">
+    <section class="Hero_section relative h-screen flex flex-col justify-end items-center text-center">
         <video loop autoplay muted playsinline webkit-playsinline tabindex="-1" aria-hidden="true"
             style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;"
             class="opacity-50">
             <source src="./assets/img/general/_1.mp4" type="video/mp4">
         </video>
-        <div class="flex flex-col items-center text-center">
-            <h1 class="text-[60px] md:text-[150px] pt-[200px]">LUXURY DETAIL</h1>
+        <div class="Hero_section_content">
+            <h1 class="text-[60px] md:text-[150px]">LUXURY DETAIL</h1>
             <p class="text-[12px] md:text-[16px] pb-[30px] [color:rgba(255,255,255,0.65)] ">AutoDetail offers efficient reliable
                 detailing that restores<br> shine and preserves your vehicle.</p>
             <button class="group border-1 py-2 px-4 rounded text-white mb-[50px]">Make Appointment</button>
         </div>
     </section>
-
+    <section class="Logos_section">
+        <div class="flex justify-center">
+            <img src="./assets/img/general/carIcon8.webp " class="w-[180px] h-[180px] p-[50px] hidden xl:block" alt="logo">
+            <img src="./assets/img/general/carIcon2.webp " class="w-[160px] h-[160px] p-[50px] hidden lg:block xl:w-[180px] xl:h-[180px]" alt="logo">
+            <img src="./assets/img/general/carIcon3.webp " class="w-[160px] h-[160px] p-[50px] hidden md:block xl:w-[180px] xl:h-[180px]" alt="logo">
+            <img src="./assets/img/general/carIcon4.webp " class="w-[160px] h-[160px] p-[50px] hidden sm:block xl:w-[180px] xl:h-[180px]" alt="logo">
+            <img src="./assets/img/general/carIcon5.webp " class="w-[100px] h-[100px] p-[20px] sm:p-[50px] sm:w-[160px] sm:h-[160px] xl:w-[180px] xl:h-[180px]" alt="logo">
+            <img src="./assets/img/general/carIcon6.webp " class="w-[100px] h-[100px] p-[20px] sm:p-[50px] sm:w-[160px] sm:h-[160px] xl:w-[180px] xl:h-[180px]" alt="logo">
+            <img src="./assets/img/general/carIcon7.webp " class="w-[100px] h-[100px] p-[20px] sm:p-[50px] sm:w-[160px] sm:h-[160px] xl:w-[180px] xl:h-[180px]" alt="logo">
+        </div
+    </section>
 
 </body>
 
